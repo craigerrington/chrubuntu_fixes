@@ -20,7 +20,7 @@
 mkdir ~/backup
 sudo mv /usr/share/X11/xorg.conf.d/* ~/backup/
 cd /usr/share/X11/xorg.conf.d/
-sudo wget http://craigerrington.com/chrome/x_alarm_chrubuntu.zip
+sudo wget https://github.com/craigerrington/chrubuntu_fixes/raw/master/xalarmchrubuntu.zip
 sudo unzip x_alarm_chrubuntu.zip
 sudo rm x_alarm_chrubuntu.zip
 
